@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styless.css" />
 </head>
 
 <body>
@@ -34,14 +34,20 @@
                 </li>
             </ul>
         </address>
+        <button class="mobile-opn-btn" type="button">
+            <svg class="mobile-open-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-burger"></use>
+            </svg>
+        </button>
     </div>
     </header>
     <main>
         <!--HERO SECTION-->
         <section class="hero-section">
             <div class="container">
-            <h1 class="main-title">Effective Solutions<br> for Your Business</h1>
-            <button type="button" class="button-name">Order Service</button>
+            <h1 class="main-title">Effective Solutions<span class="subtitle"> for Your Business</span></h1>
+            <button type="button" class="button-name">Order Service
+            </button>
             </div>
         </section>
         <!--OUR BENEFITS-->
@@ -454,6 +460,64 @@
             </div>
             <button class="rewiew-form-btn" type="submit">Send</button>
         </form>
+    </div>
+</div>
+<div class="mobile-menu is-open">
+    <div class="container mobile-menu-container">
+        <button class="mobile-menu-close-btn" type="button">
+            <svg class="mobile-menu-close-btn-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+        </button>
+        <nav class="page-nav-mobile">
+            <ul class="mobile-list list">
+                <li class="menu-item-mobile">
+                    <a class="menu-link-mobile link" href="./index.html">Studio</a>
+                </li>
+                <li class="menu-item-mobile"><a class="menu-link-mobile link" href="">Portfolio</a></li>
+                <li class="menu-item-mobile"><a class="menu-link-mobile link" href="">Contacts</a></li>
+            </ul>
+        </nav>
+        <address class="page-adress-mobile">
+            <ul class="adress-list-mobile list">
+                <li class="adress-item-mobile">
+                    <a class="adress-link-mobile link" href="mailto:info@devstudio.com">info@devstudio.com</a><br />
+                </li>
+                <li class="adress-item-mobile">
+                    <a class="adress-link-mobile link" href="tel:+110001111111">+11 (000) 111-11-11</a><br />
+                </li>
+            </ul>
+        </address>
+        <ul class="mobile-social-list list">
+            <li class="mobile-social-list-item">
+                <a href="" class="mobile-social-list-link">
+                    <svg class="mobile-social-list-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mobile-social-list-item">
+                <a href="" class="mobile-social-list-link">
+                    <svg class="mobile-social-list-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mobile-social-list-item">
+                <a href="" class="mobile-social-list-link">
+                    <svg class="mobile-social-list-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mobile-social-list-item">
+                <a href="" class="mobile-social-list-link">
+                    <svg class="mobile-social-list-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
     </div>
 </div>
 </body>
